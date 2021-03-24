@@ -21,7 +21,7 @@
                         <div class="product-image">
                               <!-- image goes here -->
                               <a :href="link" target="_blank">
-                                    <img :src="image">
+                                    <img :class="[inStock? '': 'out-of-stock-img']":src="image">
                               </a>
                         </div>
                         <div class="product-info">
